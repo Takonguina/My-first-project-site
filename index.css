@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     max-width: 1000px;
-    align-items: flex-start;
     margin: auto;
+    padding-bottom: 0px;
   }
   
   .accueil-introduction h1 {
@@ -11,17 +11,39 @@
   }
   
   .accueil-introduction p {
-    margin-bottom: 30px;
+    text-align: justify;
   }
   
-  .accueil-introduction div {
-    padding-right: 80px;
+  .square-background{
+    position: absolute;
+    width: 70vw;
+    height: 20vw;
+    background-color: red;
   }
-  
+
+  .competences{
+    margin: auto;
+  }
+
+  .competences h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+  }
+
+  .container2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   .section-contact h2 {
     color: #a5b4fc;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   
   form {
@@ -67,6 +89,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding-bottom: 0px;
     }
   
     .accueil-introduction div {
@@ -88,7 +111,13 @@
     .accueil-photos div {
       flex-direction: column;
     }
-  
+    
+    .container2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
     .section-contact {
       padding: 50px 20px;
     }
