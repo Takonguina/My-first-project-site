@@ -13,20 +13,18 @@
   .accueil-introduction p {
     text-align: justify;
   }
-  
-  .square-background{
-    position: absolute;
-    width: 70vw;
-    height: 20vw;
-    background-color: red;
-  }
 
   .competences{
     margin: auto;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(40px) saturate(50%);
+    margin-top: 40px;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   .competences h2 {
-    margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
     text-align: center;
@@ -111,7 +109,7 @@
     .accueil-photos div {
       flex-direction: column;
     }
-    
+
     .container2{
       display: flex;
       align-items: center;
