@@ -81,6 +81,32 @@
     margin-left: 30px;
   }
   
+  .experience h2{
+    padding-left: 5%;
+    padding-bottom: 50px;
+  }
+
+  .containerexp { display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+  }
+
+  .containerexp .imgone{
+    text-align: center;
+  }
+
+  .containerexp .textone{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #8788ba;
+  }
+
   @media screen and (max-width: 996px) {
     header nav {
       flex-direction: column;
